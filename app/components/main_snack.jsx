@@ -1,11 +1,16 @@
 import React, {Component} from 'react';
 import Search from "./search.jsx";
+import Results from "./searchresults.jsx";
 
 export class MainSnack extends Component {
 
     render() {
 
-        return (<div>hello from main snack <Search/> </div>
+        return (<div>
+                <Search/>
+
+
+            </div>
         );
     }
 
